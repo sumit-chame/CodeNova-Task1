@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sumit Chame | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#020617;color:#fff}
+
+header{position:fixed;width:100%;padding:15px 40px;display:flex;justify-content:space-between;align-items:center;background:rgba(0,0,0,0.6);backdrop-filter:blur(12px);z-index:1000}
+header h2{background:linear-gradient(90deg,#a855f7,#ec4899);-webkit-background-clip:text;color:transparent}
+nav a{color:#fff;margin:0 12px;text-decoration:none;transition:.3s}
+nav a:hover{color:#a855f7}
+
+section{padding:100px 40px}
+
+.home{height:100vh;display:flex;align-items:center;justify-content:center;text-align:center}
+.home h1{font-size:48px}
+.gradient{background:linear-gradient(90deg,#a855f7,#ec4899);-webkit-background-clip:text;color:transparent}
+
+.badge{display:inline-block;padding:10px 20px;border-radius:25px;background:rgba(168,85,247,0.15);margin-bottom:20px;border:1px solid rgba(168,85,247,0.3)}
+
+.social{margin-top:25px}
+.social a{
+display:flex;align-items:center;gap:10px;
+margin:10px auto;padding:12px 20px;
+width:250px;justify-content:center;
+border-radius:30px;
+background:#0f172a;border:1px solid rgba(255,255,255,0.1);
+text-decoration:none;color:#fff;transition:.3s
+}
+.social a:hover{border-color:#a855f7;transform:scale(1.05)}
+
+.card{background:#0f172a;padding:25px;border-radius:20px;margin-top:20px;border:1px solid rgba(255,255,255,0.05);transition:.3s}
+.card:hover{transform:translateY(-5px);border-color:#a855f7}
+
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+
+.skills-container{display:grid;gap:20px}
+.skill{margin:15px 0}
+.progress{height:8px;background:#1e293b;border-radius:10px;overflow:hidden}
+.progress div{height:100%;background:linear-gradient(90deg,#a855f7,#ec4899)}
+
+input,textarea{width:100%;padding:12px;margin:10px 0;border-radius:10px;border:none;background:#0f172a;color:#fff}
+
+footer{text-align:center;padding:20px;background:#020617;margin-top:40px}
+
+/* ✅ IMPROVED ABOUT SECTION */
+#about{
+text-align:center;
+}
+
+#about .card{
+max-width:750px;
+margin:30px auto;
+line-height:1.9;
+font-size:17px;
+padding:35px;
+background:linear-gradient(145deg,#0f172a,#020617);
+border:1px solid rgba(168,85,247,0.2);
+}
+
+#about p{
+color:#e2e8f0;
+}
+
+/* CERTIFICATION SECTION */
+#certifications h2{
+text-align:center;
+margin-bottom:30px;
+font-size:32px;
+background:linear-gradient(90deg,#a855f7,#ec4899);
+-webkit-background-clip:text;
+color:transparent;
+}
+
+.cert-container{display:grid;gap:20px;}
+
+.cert-card{
+display:flex;
+gap:20px;
+align-items:center;
+background:#0f172a;
+padding:25px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,0.08);
+transition:.3s;
+}
+
+.cert-card:hover{
+transform:translateY(-6px);
+border-color:#a855f7;
+}
+
+.cert-icon{
+font-size:22px;
+background:linear-gradient(135deg,#a855f7,#ec4899);
+padding:15px;
+border-radius:12px;
+color:#fff;
+}
+
+.company{color:#a855f7;margin:5px 0;}
+.date{color:#aaa;font-size:14px;}
+
+.cert-btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 18px;
+border-radius:25px;
+background:linear-gradient(90deg,#a855f7,#ec4899);
+color:#fff;
+text-decoration:none;
+font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h2>SC</h2>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#certifications">Certificates</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section id="home" class="home">
+<div>
+<div class="badge">✨ Available for opportunities</div>
+<h1>Sumit Chame<br><span class="gradient">Full Stack Developer</span></h1>
+<p>Building modern web applications with clean, efficient code.</p>
+
+<div class="social">
+<a href="mailto:sumitchame6782s@email.com"><i class="fa-solid fa-envelope"></i> Email</a>
+<a href="tel:+919359426080"><i class="fa-solid fa-phone"></i> Call</a>
+<a href="https://www.linkedin.com/in/sumit-chame-945b87265" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+<a href="https://github.com/sumit-chame"><i class="fa-brands fa-github"></i> GitHub</a>
+</div>
+</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+<p>
+I am a Computer Engineering student and aspiring Full Stack Developer with hands-on experience in building modern web applications. 
+I enjoy creating clean, responsive, and user-friendly interfaces while focusing on writing efficient and scalable code. 
+I am continuously learning new technologies and aiming to solve real-world problems through innovative digital solutions.
+</p>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="projects">
+<div class="card">Portfolio Website</div>
+<div class="card">Landing Page</div>
+<div class="card">JavaScript App</div>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills & Expertise</h2>
+<div class="skills-container">
+<div class="card">
+<h3>Languages</h3>
+<div class="skill">Python 90%
+<div class="progress"><div style="width:90%"></div></div></div>
+<div class="skill">JavaScript 85%
+<div class="progress"><div style="width:85%"></div></div></div>
+<div class="skill">Java 85%
+<div class="progress"><div style="width:85%"></div></div></div>
+<div class="skill">C++ 80%
+<div class="progress"><div style="width:80%"></div></div></div>
+</div>
+
+<div class="card">
+<h3>Frontend</h3>
+<div class="skill">React.js 50%
+<div class="progress"><div style="width:50%"></div></div></div>
+</div>
+</div>
+</section>
+
+<section id="certifications">
+<h2>Certifications & Internship</h2>
+
+<div class="cert-container">
+
+<div class="cert-card">
+<div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+<div>
+<h3>Python and Artificial Intelligence Bootcamp</h3>
+<p class="company">CodeNova Tech Solutions</p>
+<p class="date"><i class="fa-regular fa-calendar"></i> January 2026</p>
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7413530890552795136/?originTrackingId=rekoCazJrmDOhqnAWSilxA%3D%3D" target="_blank" class="cert-btn">
+<i class="fa-solid fa-eye"></i> View Certificate
+</a>
+</div>
+</div>
+
+<div class="cert-card">
+<div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+<div>
+<h3>Python for Data Science - AI & Development</h3>
+<p class="company">Coursera</p>
+<p class="date"><i class="fa-regular fa-calendar"></i> AUG 2024</p>
+<a href="https://www.coursera.org/account/accomplishments/verify/L3YOQ6C8U1C2?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" target="_blank" class="cert-btn">
+<i class="fa-solid fa-eye"></i> View Certificate
+</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<form onsubmit="return validateForm()">
+<input type="text" id="name" placeholder="Your Name">
+<input type="email" id="email" placeholder="Your Email">
+<textarea id="message" placeholder="Message"></textarea>
+<button class="badge" style="cursor:pointer">Send Message</button>
+</form>
+
+<div class="card">
+<p><i class="fa-solid fa-envelope"></i> sumitchame6782s@email.com</p>
+<p><i class="fa-solid fa-phone"></i> +91 9359426080</p>
+<p><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Sumit Chame</p>
+</footer>
+
+<script>
+function validateForm(){
+let name=document.getElementById('name').value;
+let email=document.getElementById('email').value;
+if(name===''||email===''){alert('Fill all fields');return false;}return true;}
+</script>
+
+</body>
+</html>
